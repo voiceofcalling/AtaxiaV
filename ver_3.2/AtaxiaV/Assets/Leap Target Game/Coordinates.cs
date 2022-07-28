@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Leap;
@@ -11,7 +12,8 @@ public class Coordinates : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controller = new Leap.Controller();
+            controller = new Leap.Controller();
+        
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class Coordinates : MonoBehaviour
                 Debug.Log("Hand #" + i + "- x: " + curhand.PalmPosition.x + ", y: " + curhand.PalmPosition.y + ", z: " + curhand.PalmPosition.z);
             }
         }
-
+        
     }
     /*Leap.Vector leapToWorld(Leap.Vector leapPoint, InteractionBox iBox)
     {
