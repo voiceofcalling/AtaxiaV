@@ -27,7 +27,7 @@ public class Coordinates : MonoBehaviour
             for (int i = 0; i < hands.Count;i++)
             {
                 Hand curhand = hands[i];
-                Debug.Log("Hand #" + i + "- x: " + curhand.PalmPosition.x + ", y: " + curhand.PalmPosition.y + ", z: " + curhand.PalmPosition.z);
+                //Debug.Log("Hand #" + i + "- x: " + curhand.PalmPosition.x + ", y: " + curhand.PalmPosition.y + ", z: " + curhand.PalmPosition.z);
             }
         }
         

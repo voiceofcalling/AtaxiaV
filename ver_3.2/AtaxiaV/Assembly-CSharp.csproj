@@ -61,6 +61,7 @@
      <Compile Include="Assets\Leap Target Game\DebugGUI\DebugGUI.cs" />
      <Compile Include="Assets\Leap Target Game\DebugGUI\Examples\DebugGUIExamples.cs" />
      <Compile Include="Assets\Leap Target Game\reappear.cs" />
+     <Compile Include="Assets\Leap Target Game\Throw.cs" />
      <Compile Include="Assets\Leap Touching Rhythm Game\Coordinates LTRG.cs" />
      <Compile Include="Assets\Leap Touching Rhythm Game\Reappear.cs" />
      <Compile Include="Assets\Scenes\SceneSwitcher.cs" />

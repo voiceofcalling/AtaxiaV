@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class reappear : MonoBehaviour
 {
+   
     Vector3 originalPosthr;
     Vector3 originalPostarget;
     GameObject thr;
@@ -43,4 +44,5 @@ public class reappear : MonoBehaviour
         thrrigid.angularVelocity = new Vector3(0, 0, 0);
         targetrigid.angularVelocity = new Vector3(0, 0, 0);
     }
+    
 }
