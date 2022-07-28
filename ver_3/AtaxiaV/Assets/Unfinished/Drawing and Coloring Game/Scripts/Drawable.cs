@@ -34,10 +34,10 @@ namespace FreeDraw
         public static Drawable drawable;
         // MUST HAVE READ/WRITE enabled set in the file editor of Unity
         Sprite drawable_sprite;
-        Texture2D drawable_texture;
+        public static Texture2D drawable_texture;
 
         Vector2 previous_drag_position;
-        Color[] clean_colours_array;
+        public static Color[] clean_colours_array;
         Color transparent;
         Color32[] cur_colors;
         bool mouse_was_previously_held_down = false;
