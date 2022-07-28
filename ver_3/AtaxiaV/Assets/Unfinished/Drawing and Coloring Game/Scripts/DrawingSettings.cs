@@ -59,8 +59,7 @@ namespace FreeDraw
         }
         public void SetEraser()
         {
-            Drawable.drawable_texture.SetPixels(Drawable.clean_colours_array);
-            Drawable.drawable_texture.Apply();
+            SetMarkerColour(new Color(255f, 255f, 255f, 0f));
         }
 
         public void PartialSetEraser()
