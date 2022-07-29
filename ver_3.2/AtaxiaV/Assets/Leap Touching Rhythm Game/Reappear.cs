@@ -7,6 +7,7 @@ public class Reappear : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody rb;
     int timer;
+    int numoftouch;
     void Start()
     {
         rb = (Rigidbody)gameObject.GetComponent("Rigidbody");
@@ -26,6 +27,7 @@ public class Reappear : MonoBehaviour
     }
     public void Reset()
     {
+        
         if (timer != 0)
             return;
         float X = Random.RandomRange(-0.6f, 0.4f);
