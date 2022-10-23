@@ -17,7 +17,7 @@ public class TouchBall : MonoBehaviour
    // int time = 0;
    ArrayList times = new ArrayList();
     bool timerActive = true;
-    float timeStart = 0;
+    float timeStart = -3;
    // float temptime = 0;
    void Start() {
     real.AppendLine(string.Format("{0},{1},{2},{3},{4}", "Recent Time", "Number of Touches", "Minimum Time", "Maximum Time", "Average Time"));

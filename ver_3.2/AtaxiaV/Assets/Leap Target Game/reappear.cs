@@ -11,6 +11,7 @@ public class reappear : MonoBehaviour
     GameObject target;
     Rigidbody thrrigid;
     Rigidbody targetrigid;
+    public int num = 0;
     // -1.1<=x<=1.1  0.1<=y<=1.1 z = 2.7
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,9 @@ public class reappear : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
+            num++;
+            int tmp = Throw.grabs;
+            Debug.Log("Number of failures: " + (num-tmp));
             reset();
         }
     }
